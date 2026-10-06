@@ -1,0 +1,16 @@
+{
+  "description": "Rank-1 directedness surrogate for exp_1 exact low-rank closure validation",
+  "K": 1,
+  "G": 2,
+  "T": 2.0,
+  "dt": 5e-4,
+  "mu": 0.0,
+  "r": 0.0,
+  "p": [0.5, 0.5],
+  "m_g": [0.50, 0.45],
+  "sigma_g": [0.18, 0.18],
+  "A_g": [[2.0], [0.6]],
+  "B_g": [[0.6], [2.0]],
+  "N_values": [400, 1600],
+  "loss": "hard"
+}

@@ -1,0 +1,28 @@
+# Component 1: piecewise-smooth indicator (block-exponential kernel)
+loss_type,eps,terminal_frac,state_err_sup,frac_err_sup
+hard,,0.219500,,
+positive_ramp,0.04,0.225500,1.3071e-02,6.0000e-03
+positive_ramp,0.02,0.222500,6.5421e-03,3.0000e-03
+positive_ramp,0.01,0.221000,3.2731e-03,1.5000e-03
+
+# Component 2: directed 30-mode truncation (eps=0.02)
+K,state_err_sup,frac_err_sup
+1,0.0000e+00,0.0000e+00
+2,0.0000e+00,0.0000e+00
+4,0.0000e+00,0.0000e+00
+6,0.0000e+00,0.0000e+00
+8,0.0000e+00,0.0000e+00
+12,0.0000e+00,0.0000e+00
+16,0.0000e+00,0.0000e+00
+24,0.0000e+00,0.0000e+00
+
+# Component 3: trigonometric family vs M=16 benchmark (eps=0.02)
+M,state_err_sup,frac_err_sup
+1,1.4880e-02,3.5000e-03
+2,5.8108e-03,3.0000e-03
+4,4.4631e-04,5.0000e-04
+8,1.7376e-06,0.0000e+00
+
+"# Step-halving validation (hard threshold, Component 1 setup)"
+dt_coarse,dt_fine,max_discrepancy
+0.002,0.001,4.6552e-05
